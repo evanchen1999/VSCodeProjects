@@ -1,0 +1,10 @@
+# commiting and pushing
+git add . 
+git commit -m "---"
+git push origin
+
+# new branch
+git checkout -b "BRANCH_NAME"
+git add . 
+git commit -m "---"
+git push --set-upstream origin "BRANCH_NAME"
